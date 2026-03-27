@@ -18,10 +18,12 @@ export default function App() {
   }, [dark])
 
   return (
-    <div>
+    <div className="relative">
       <Cursor />
-        <ThemeToggle dark={dark} setDark={setDark} />
       <Hero />
+      <div className="fixed bottom-6 right-6 z-50">
+        <ThemeToggle dark={dark} setDark={setDark} />
+      </div>
       <Services />
       <Projects />
       <About />

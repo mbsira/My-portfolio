@@ -17,9 +17,9 @@ export default function Services() {
           </div>
           <h2 className="text-[clamp(2rem,7vw,3.75rem)] font-[gaia] uppercase tracking-wide">Web Design</h2>
           <p className="text-[1rem] opacity-70 leading-relaxed">
-            Building aesthetic and functional interfaces.<br />
-            Focusing on clean layouts, modern typography,<br />
-            and user-centric flows.
+           Building aesthetic and functional interfaces.<br />
+          Focusing on clean layouts, modern typography,<br />
+          and user-centric flows.
           </p>
         </div>
 
@@ -44,8 +44,8 @@ export default function Services() {
           <h2 className="text-[clamp(2rem,7vw,3.75rem)] font-[gaia] uppercase tracking-wide">Exploration</h2>
           <p className="text-[1rem] opacity-70 leading-relaxed">
             Constantly experimenting with new ideas,<br />
-            improving with every project, and building<br />
-            things that actually ship.
+            improving with every project. always open<br></br>
+            for trying new ideas.
           </p>
         </div>
 

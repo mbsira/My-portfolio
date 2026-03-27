@@ -22,7 +22,7 @@ export default function About() {
           <div>
             <h3 className="text-sm font-mono uppercase opacity-50 mb-6 tracking-widest">Contact</h3>
             <p className="text-base leading-relaxed">
-              Mubashira.dev@gmail.com
+              Mubashira.suroor@gmail.com
             </p>
           </div>
           <div>

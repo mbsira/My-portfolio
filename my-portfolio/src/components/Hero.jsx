@@ -12,15 +12,16 @@ export default function Hero() {
   return (
     <section className="bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col relative transition-colors duration-700 overflow-hidden">
 
-      <div className="w-full p-4 pt-6">
+      <div className="w-full p-0">
         <h1
           ref={titleRef}
-          className="font-[gaia] text-black dark:text-white leading-none tracking-wider transition-colors duration-500 text-[clamp(6.1rem,18vw,20rem)]"
+          className="font-[gaia] py-1 text-black dark:text-white leading-none tracking-wider transition-colors duration-500 w-full"
           style={{
-            opacity: ready ? 1 : 0,
-            transform: ready ? "translateY(0px)" : "translateY(40px)",
-            transition: "opacity 1.2s cubic-bezier(0.16,1,0.3,1), transform 1.2s cubic-bezier(0.16,1,0.3,1)",
-          }}
+          fontSize: "21.4vw",
+          opacity: ready ? 1 : 0,
+          transform: ready ? "translateY(0px)" : "translateY(40px)",
+          transition: "opacity 1.2s cubic-bezier(0.16,1,0.3,1), transform 1.2s cubic-bezier(0.16,1,0.3,1)",
+        }}
         >
           Portfolio
         </h1>
