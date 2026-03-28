@@ -17,9 +17,10 @@ export default function Services() {
           </div>
           <h2 className="text-[clamp(2rem,7vw,3.75rem)] font-[gaia] uppercase tracking-wide">Web Design</h2>
           <p className="text-[1rem] opacity-70 leading-relaxed">
-           Building aesthetic and functional interfaces.<br />
-          Focusing on clean layouts, modern typography,<br />
-          and user-centric flows.
+           Building aesthetic and functional interfaces.
+          I design according to three principles which
+          include clean design methods, modern font style,
+          and user-friendly navigation systems.
           </p>
         </div>
 
@@ -30,9 +31,10 @@ export default function Services() {
           </div>
           <h2 className="text-[clamp(2rem,7vw,3.75rem)] font-[gaia] uppercase tracking-wide">QA & Debugging</h2>
           <p className="text-[1rem] opacity-70 leading-relaxed">
-            Checking for bugs, broken links, and <br />
-            responsiveness issues. Ensuring the web<br />
-            works exactly how it's supposed to.
+            Checking for bugs, broken links, and 
+            responsiveness issues. Ensuring the web
+            works accordance with its planned 
+            functionality.
           </p>
         </div>
 
@@ -43,9 +45,9 @@ export default function Services() {
           </div>
           <h2 className="text-[clamp(2rem,7vw,3.75rem)] font-[gaia] uppercase tracking-wide">Exploration</h2>
           <p className="text-[1rem] opacity-70 leading-relaxed">
-            Constantly experimenting with new ideas,<br />
-            improving with every project. always open<br></br>
-            for trying new ideas.
+            I am Continously developing my skills through 
+            experimentation with new ideas. I am opne to 
+           any new ideas currently.
           </p>
         </div>
 

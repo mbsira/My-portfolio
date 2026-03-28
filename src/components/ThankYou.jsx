@@ -38,7 +38,7 @@ export default function ThankYou() {
 
           <div className="flex flex-col md:items-center space-y-2">
             <a href="https://www.behance.net/mubashiraansari1" className="hover:opacity-100 transition-opacity">Behance</a>
-            <a href="https://www.behance.net/mubashiraansari1/editor" className="hover:opacity-100 transition-opacity">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/mubashira-dev-0037203ba/" className="hover:opacity-100 transition-opacity">LinkedIn</a>
             <a href="https://github.com/mbsira?tab=repositories" className="hover:opacity-100 transition-opacity">GitHub</a>
           </div>
 

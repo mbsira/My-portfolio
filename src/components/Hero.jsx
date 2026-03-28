@@ -36,13 +36,14 @@ export default function Hero() {
             transition: "opacity 1s cubic-bezier(0.16,1,0.3,1) 0.5s, transform 1s cubic-bezier(0.16,1,0.3,1) 0.5s",
           }}
         >
-          I design and build for the web.<br />
-          Balancing aesthetics and logic,<br />
-          I focus on interfaces that feel simple<br />
-          and work the way people expect.<br /><br />
-          I am exploring new ideas,<br />
-          improving with every project,<br />
-          and building things that actually ship.
+          I create web designs and <br />
+          web development work I <br />
+          search for new concepts which <br />
+          I test through my work in each <br />
+          project.I develop my skills 
+          through every project I complete while constructing
+           products which <br />reach the market.
+  
         </div>
       </div>
 
