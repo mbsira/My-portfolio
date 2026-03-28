@@ -9,33 +9,36 @@ export default function Hero() {
     return () => clearTimeout(t)
   }, [])
 
+  const anim = (delay) => ({
+    opacity: ready ? 1 : 0,
+    transform: ready ? "translateY(0px)" : "translateY(24px)",
+    transition: `opacity 1s cubic-bezier(0.16,1,0.3,1) ${delay}s, transform 1s cubic-bezier(0.16,1,0.3,1) ${delay}s`,
+  })
+
   return (
     <section className="bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col relative transition-colors duration-700 overflow-hidden">
 
       <div className="w-full p-0">
         <h1
           ref={titleRef}
-          className="font-[gaia] py-1 text-black dark:text-white leading-none tracking-wider transition-colors duration-500 w-full"
+          className="font-[gaia] py-1 text-black dark:text-white leading-none tracking-wider w-full"
           style={{
             fontSize: "21.4vw",
-            opacity: ready ? 1 : 0,
-            transform: ready ? "translateY(0px)" : "translateY(40px)",
-            transition: "opacity 1.2s cubic-bezier(0.16,1,0.3,1), transform 1.2s cubic-bezier(0.16,1,0.3,1)",
+            ...anim(0),
           }}
         >
           Portfolio
         </h1>
       </div>
 
-      <div className="flex-1 flex items-center px-6">
+      <div className="flex-1 flex items-center px-8">
         <div
-          className="text-left font-sans"
+          className="text-left font-sans leading-relaxed"
           style={{
-            fontSize: "clamp(1.5rem, 2vw, 1.4rem)",
-            maxWidth: "480px",
-            opacity: ready ? 0.8 : 0,
-            transform: ready ? "translateY(0px)" : "translateY(24px)",
-            transition: "opacity 1s cubic-bezier(0.16,1,0.3,1) 0.5s, transform 1s cubic-bezier(0.16,1,0.3,1) 0.5s",
+            fontSize: "clamp(1.3rem, 1.8vw, 1.4rem)",
+            maxWidth: "520px",
+            lineHeight: "1.8",
+            ...anim(0.5),
           }}
         >
           I create web designs and web development work.
@@ -47,26 +50,21 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="w-full flex items-end justify-between px-6 pb-6">
+      <div className="w-full flex items-end justify-between px-4 pb-8">
         <div
           className="font-[gaia]"
           style={{
-            fontSize: "clamp(0.85rem, 2vw, 1.5rem)",
-            opacity: ready ? 1 : 0,
-            transform: ready ? "translateY(0px)" : "translateY(24px)",
-            transition: "opacity 1s cubic-bezier(0.16,1,0.3,1) 0.2s, transform 1s cubic-bezier(0.16,1,0.3,1) 0.2s",
+            fontSize: "clamp(1rem, 2.5vw, 2rem)",
+            ...anim(0.2),
           }}
         >
           Mubashira Suroor
         </div>
-
         <div
           className="font-[gaia]"
           style={{
-            fontSize: "clamp(0.85rem, 2vw, 1.5rem)",
-            opacity: ready ? 1 : 0,
-            transform: ready ? "translateY(0px)" : "translateY(24px)",
-            transition: "opacity 1s cubic-bezier(0.16,1,0.3,1) 0.35s, transform 1s cubic-bezier(0.16,1,0.3,1) 0.35s",
+            fontSize: "clamp(1rem, 2.5vw, 2rem)",
+            ...anim(0.35),
           }}
         >
           Designer and Developer

@@ -15,15 +15,23 @@ export default function Cursor() {
     const grow = () => ring.current.style.transform = "scale(1.8)"
     const shrink = () => ring.current.style.transform = "scale(1)"
 
+    const els = document.querySelectorAll("a, button")
+
     window.addEventListener("mousemove", move)
-    document.querySelectorAll("a, button").forEach(el => {
+    els.forEach(el => {
       el.addEventListener("mouseenter", grow)
       el.addEventListener("mouseleave", shrink)
     })
 
-    return () => window.removeEventListener("mousemove", move)
+    return () => {
+      window.removeEventListener("mousemove", move)
+      els.forEach(el => {
+        el.removeEventListener("mouseenter", grow)
+        el.removeEventListener("mouseleave", shrink)
+      })
+    }
   }, [])
-
+  
   return (
     <>
       <div ref={dot} className="cursor" />

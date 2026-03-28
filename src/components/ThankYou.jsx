@@ -23,13 +23,13 @@ export default function ThankYou() {
           <h2 className="text-[clamp(3rem,10vw,8rem)] font-[gaia] leading-none tracking-tighter uppercase">
             Thank You.
           </h2>
-          <p className="text-[clamp(1rem,2vw,1.4rem)] font-sans mt-4 leading-relaxed text-center opacity-80">
+          <p className="text-[clamp(1rem,2vw,1.4rem)] font-sans mt-4 leading-relaxed text-center">
             I am currently looking for internships and junior roles.<br />
             If you like my work, let's build something meaningful together.
           </p>
         </div>
 
-        <footer className="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-black/10 dark:border-white/10 pt-8 font-mono text-[10px] uppercase tracking-[0.2em] opacity-40 text-left">
+        <footer className="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-black/10 dark:border-white/10 pt-8 font-mono text-[10px] uppercase tracking-[0.2em] text-left">
 
           <div className="flex flex-col space-y-2">
             <span>India / Global</span>
