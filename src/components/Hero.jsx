@@ -16,7 +16,7 @@ export default function Hero() {
   })
 
   return (
-    <section className="bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col relative transition-colors duration-700 overflow-hidden">
+    <section className="bg-white dark:bg-black text-black dark:text-white min-h-screen max-w-[1600px] mx-auto px-8 md:px-16 flex flex-col relative transition-colors duration-700 overflow-hidden">
 
       <div className="w-full p-0">
         <h1

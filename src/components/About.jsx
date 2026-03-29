@@ -8,7 +8,7 @@ export default function About() {
   ]
 
   return (
-    <section className="reveal bg-white dark:bg-black text-black dark:text-white min-h-screen px-6 py-6 md:px-8 md:py-32 transition-colors duration-500 overflow-hidden">
+    <section className="reveal bg-white dark:bg-black text-black dark:text-white min-h-screen max-w-[1600px] mx-auto px-8 md:px-16 transition-colors duration-500 overflow-hidden">
 
       <div className="border-t border-black/20 dark:border-white/20 pt-8 mb-16 md:mb-20">
         <h1 className="text-base md:text-lg font-[gaia] leading-none tracking-tight">
