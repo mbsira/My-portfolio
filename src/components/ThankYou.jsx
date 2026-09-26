@@ -34,6 +34,7 @@ export default function ThankYou() {
             </div>
             <div className="flex flex-col space-y-2 sm:items-center">
               {[
+                { label: "Behance", href: "https://www.behance.net/mubashiraansari1" },
                 { label: "LinkedIn", href: "https://www.linkedin.com/in/mubashira-dev-0037203ba/" },
                 { label: "GitHub", href: "https://github.com/mbsira?tab=repositories" },
               ].map(({ label, href }) => (

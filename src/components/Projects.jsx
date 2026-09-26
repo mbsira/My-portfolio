@@ -15,7 +15,7 @@ export default function Projects() {
       description: "A luxury skincare e-commerce landing page with a working cart, video hero, and editorial typography. Built with HTML, CSS, and Vanilla JS.",
       link: "https://skincare-website-three.vercel.app"
     },
-     {
+    {
       title: "Toyota Website",
       description: "Toyota 86 Limited Edition. a dark-themed landing page featuring hero visuals, a photo gallery, and a trip booking form for the car.",
       link: "https://toyota-car-web.vercel.app"
